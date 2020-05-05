@@ -1,6 +1,5 @@
 import React from 'react'
-import NavBar from '../Components/NavBar.tsx'
-// import NCard from '../Components/Card.tsx'
+import NavBar from '../Components/NavBar'
 import { Card, CardImg, CardText, CardLink, CardBody, CardTitle, CardSubtitle, Button, Jumbotron } from 'reactstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './LandingPage.css'
