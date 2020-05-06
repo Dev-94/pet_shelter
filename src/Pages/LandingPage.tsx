@@ -19,7 +19,6 @@ const LandingPage = () => {
                     <Button color="primary">Learn More</Button>
                 </p>
             </Jumbotron>
-            <NavBar />
             <Card className="card">
                 <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
                 <CardBody>
