@@ -8,7 +8,7 @@ function App() {
     <div>
       hello
       {/* <LandingPage /> */}
-      <NavBar />
+      <ApplyPage />  <NavBar />
     </div>
   );
 }
