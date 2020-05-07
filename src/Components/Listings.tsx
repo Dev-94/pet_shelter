@@ -3,7 +3,8 @@ import { Card, CardTitle, CardSubtitle, CardText, CardImg, CardBody } from 'reac
 
 const Listings = () => {
 
-    const [pets, setPets] = useState([])
+    const [petName, setPetName] = useState([])
+    const [petAge, setPetAge] = useState([])
 
     useEffect(() => {
         const url = 'https://api.rescuegroups.org/v5/public/animals/'
@@ -26,9 +27,9 @@ const Listings = () => {
         fetch(url, requestOptions)
             .then(response => response.json())
             .then(result => {
-                setPets(result.data)
+                setPetName(result.data)
                 // console.log(result.data.slice(0, 10))
-                console.log(pets)
+                console.log(petName)
             }
             )
 
