@@ -11,7 +11,6 @@ const ApplyPage = () => {
                 </Label>
                 <Input type="textarea" name="text" id="exampleText" />
             </FormGroup>
-
             <p>If you have not been approved yet, please fill out this application.</p>
             <Application />
         </div>)

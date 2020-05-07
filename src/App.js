@@ -6,9 +6,7 @@ import NavBar from './Components/NavBar'
 function App() {
   return (
     <div>
-      hello
-      {/* <LandingPage /> */}
-      <ApplyPage />  <NavBar />
+      <NavBar />
     </div>
   );
 }

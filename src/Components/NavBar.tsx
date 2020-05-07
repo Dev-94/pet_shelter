@@ -1,6 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import LandingPage from '../Pages/LandingPage';
+import ApplyPage from '../Pages/ApplyPage'
+import AboutPage from '../Pages/AboutPage'
+import LoginPage from '../Pages/LoginPage'
 
 const NavBar = () => {
 
@@ -25,14 +28,13 @@ const NavBar = () => {
                 </nav>
 
                 <Switch>
-                    <Route path="/about">
-                        {/* <About /> */}
+                    <Route path="/about" component={AboutPage}>
                     </Route>
-                    <Route path="/apply">
-                        {/* <Apply /> */}
+                    <Route path="/apply" component={ApplyPage}>
                     </Route>
-                    <Route path="/">
-                        <LandingPage />
+                    <Route path="/login" component={LoginPage}>
+                    </Route>
+                    <Route exact={true} path="/" component={LandingPage}>
                     </Route>
                 </Switch>
             </div>
@@ -44,13 +46,13 @@ const NavBar = () => {
 }
 
 // function Home() {
-//     return <h2>Home</h2>
+//     return <LandingPage />
 // }
 // function About() {
 //     return <h2>About</h2>
 // }
 // function Apply() {
-//     return <h2>Apply</h2>
+//     return <ApplyPage />
 // }
 
 export default NavBar
