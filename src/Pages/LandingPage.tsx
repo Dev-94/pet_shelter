@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import NavBar from '../Components/NavBar'
+import Listings from '../Components/Listings'
 import { Card, CardImg, CardText, CardLink, CardBody, CardTitle, CardSubtitle, Button, Jumbotron, Nav } from 'reactstrap';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import './LandingPage.css'
@@ -22,6 +23,7 @@ const LandingPage = () => {
                     <Button color="primary">Learn More</Button>
                 </p>
             </Jumbotron>
+            <Listings />
             <div className="Cards">
                 <Card className="card">
                     <CardImg top width="100%" src={otis} alt="Otis" />
