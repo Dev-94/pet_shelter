@@ -12,18 +12,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Wireframe
 - View the [wireframe](https://wireframe.cc/n3b6e7)
 
-### Screenshots
-Home: 
-![Home Page][home]
-![About Page][about]
-![Application Page][apply]
-![Login Page][login]
-
-
-[home]: public/screenshots/home.png "Home Page"
-[about]: public/screenshots/about.png "About Page"
-[apply]: public/screenshots/apply.png "Application Page"
-[login]: public/screenshots/login.png "Login Page"
 
 ### Necessary Technologies
 
@@ -65,3 +53,15 @@ The MVP has a front-end model of the app. It includes sample cards and pages.
 - Build Admin portal for adding, updating, and removing animals.
 - Admin ports also allows admins to promote certain animals that have been sheltered for an extended period of time via SendGrid and Twilio SMS.
 
+### Screenshots
+Home: 
+![Home Page][home]
+![About Page][about]
+![Application Page][apply]
+![Login Page][login]
+
+
+[home]: public/screenshots/home.png "Home Page"
+[about]: public/screenshots/about.png "About Page"
+[apply]: public/screenshots/apply.png "Application Page"
+[login]: public/screenshots/login.png "Login Page"
