@@ -1,0 +1,13 @@
+ul,li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 40px;
+    font-size: larger;
+}
+
+.link:hover {
+    text-shadow: 1px 1px 1px grey;
+    text-decoration: none;
+    color: wheat;
+}

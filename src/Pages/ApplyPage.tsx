@@ -6,6 +6,7 @@ const ApplyPage = () => {
 
     return (
         <div>
+            <h1>Application</h1>
             <FormGroup>
                 <Label for="exampleText"> If you have already been aproved, please type in your keycode here:
                 </Label>

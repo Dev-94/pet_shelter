@@ -4,6 +4,7 @@ import LandingPage from '../Pages/LandingPage';
 import ApplyPage from '../Pages/ApplyPage'
 import AboutPage from '../Pages/AboutPage'
 import LoginPage from '../Pages/LoginPage'
+import './NavBar.css'
 
 const NavBar = () => {
 
@@ -12,19 +13,15 @@ const NavBar = () => {
             <div>
                 <nav>
                     <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
-                            <Link to="/apply">Apply</Link>
-                        </li>
-                        <li>
-                            <Link to="/login">Login</Link>
-                        </li>
+                        <li><Link className="link" to="/">Home</Link></li>
+
+                        <li><Link className="link" to="/about">About</Link></li>
+
+                        <li><Link className="link" to="/apply">Apply</Link> </li>
+
+                        <li> <Link className="link" to="/login">Login</Link></li>
                     </ul>
+                    <hr />
                 </nav>
 
                 <Switch>
