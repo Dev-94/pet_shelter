@@ -1,15 +1,14 @@
 import React, { useState } from 'react'
-import NavBar from '../Components/NavBar'
 import Listings from '../Components/Listings'
-import { Card, CardImg, CardText, CardLink, CardBody, CardTitle, CardSubtitle, Button, Jumbotron, Nav } from 'reactstrap';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Jumbotron, Nav } from 'reactstrap';
+import { Link } from "react-router-dom";
 import './LandingPage.css'
 import otis from '../images/otis.jpeg'
 import dana from '../images/dana.jpeg'
 
 const LandingPage = () => {
 
-
+    const [viewClicked, setViewClicked] = useState('')
 
     return (
 
@@ -24,7 +23,7 @@ const LandingPage = () => {
                 </p>
             </Jumbotron>
             <Listings />
-            <div className="Cards">
+            {/* <div className="Cards">
                 <Card className="card">
                     <CardImg top width="100%" src={otis} alt="Otis" />
                     <CardBody>
@@ -42,9 +41,9 @@ const LandingPage = () => {
                         <CardText>Age: 3 years old, Black, Female, 10 lbs.</CardText>
                         <Link to="/apply">Apply</Link>
                     </CardBody>
-                </Card>
-            </div>
-        </div>
+                </Card> 
+        </div>*/}
+        </div >
     )
 
 }
